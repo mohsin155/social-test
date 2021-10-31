@@ -29,7 +29,7 @@ export class AppComponent {
 
     const options: UIParams = {
       method: 'share',
-      href: 'https://github.com/zyramedia/ng2-facebook-sdk'
+      href: window.location.href
     };
 
     this.fb.ui(options)
